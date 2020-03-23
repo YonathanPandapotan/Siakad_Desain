@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient1">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="200dp"
+        android:layout_height="430dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="38dp"
+        android:src="@drawable/logosatu"/>
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="335dp"
+        android:background="#11000000"
+        android:drawableLeft="@drawable/ic_action_username"
+        android:ems="20"
+        android:hint="Username"
+        android:textColor="@color/Putih"
+        android:textColorHint="@color/Putih"
+        android:textSize="16dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:inputType="textPassword"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:background="#11000000"
+        android:layout_below="@+id/username"
+        android:ems="20"
+        android:textColorHint="@color/Putih"
+        android:textColor="@color/Putih"
+        android:textSize="16dp"
+        android:drawableLeft="@drawable/ic_action_password"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/password"
+        android:background="@drawable/buttonnew"
+        android:textSize="16dp"
+        android:hint="Login"
+        android:textColorHint="@color/Putih" />
+
+
+
+</RelativeLayout>

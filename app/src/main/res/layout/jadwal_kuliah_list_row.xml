@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="?android:attr/selectableItemBackground"
+    android:clickable="true"
+    android:focusable="true"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="8dp"
+    android:paddingRight="8dp"
+    android:paddingTop="5dp">
+
+    <TextView
+        android:id="@+id/idJadwal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:textColor="@color/Putih2"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        android:gravity="center_vertical"/>
+
+    <TextView
+        android:id="@+id/namaMatkul"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_toStartOf="@+id/ruangan"
+        android:layout_toEndOf="@+id/idJadwal"
+        android:gravity="center_vertical"
+        android:textColor="@color/Putih2" />
+
+    <TextView
+        android:id="@+id/ruangan"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/jamSelesai"
+        android:layout_marginRight="7dp"
+        android:textColor="@color/Putih" />
+
+    <TextView
+        android:id="@+id/hari"
+        android:layout_width="45dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ruangan"
+        android:layout_toStartOf="@+id/jamSelesai"
+        android:layout_marginRight="7dp"
+        android:textColor="@color/Putih" />
+
+    <TextView
+        android:id="@+id/jamMulai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/Putih" />
+
+    <TextView
+        android:id="@+id/jamSelesai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/jamMulai"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/Putih" />
+
+</RelativeLayout>

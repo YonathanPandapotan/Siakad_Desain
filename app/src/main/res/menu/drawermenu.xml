@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+    <item android:id="@+id/homePage"
+            android:title="Home Page"
+            android:icon="@drawable/ic_home_black_24dp"/>
+
+    <item android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_person_black_24dp"/>
+
+    <item android:id="@+id/ipk"
+        android:title="IPK Mahasiswa"
+        android:icon="@drawable/ic_notepad_1"/>
+
+        <item android:id="@+id/gantiPassword"
+            android:title="Ganti Password"
+            android:icon="@drawable/ic_action_password"/>
+
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        android:icon="@drawable/ic_exit_1"/>
+
+    </group>
+
+</menu>

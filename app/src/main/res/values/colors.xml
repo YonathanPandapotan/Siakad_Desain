@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="title">#222222</color>
+    <color name="biru">#006699</color>
+    <color name="biru1">#66ccff</color>
+    <color name="Putih">#FFFFFF</color>
+    <color name="Putih2">#ece8e8</color>
+    <color name="transparnt">#00000000</color>
+</resources>
+
